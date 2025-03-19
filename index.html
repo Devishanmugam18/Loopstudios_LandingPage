@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loopstudios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="full_nav" class="overlay" style="width:0%">
+            <nav class="overlay_container">
+            <div class="upper">
+                <img class="logo" src="images/logo.svg" alt="">
+                <button onclick="closeNav();" class="close_btn" aria-label="opening the overlay menu" title="alternate for other users" value="abcd">
+                    <img src="images/icon-close.svg" alt="">
+                </button>
+            </div>
+            <div class="lower">
+                <ul>
+                    <li>
+                        <a href="">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="">CAREERS</a>
+                    </li>
+                    <li>
+                        <a href="">EVENTS</a>
+                    </li>
+                    <li>
+                        <a href="">PRODUCTS</a>
+                    </li>
+                    <li>
+                        <a href="">SUPPORT</a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+        <div class="navigation">
+            <div class="navigation-container">
+                <img class="logo" src="images/logo.svg" alt="">
+                <div class="navigation-links-container">
+                    <nav class="navigation-links">
+                        <ul>
+                            <li>
+                                <a href="">About</a>
+                            </li>
+                            <li>
+                                <a href="">Careers</a>
+                            </li>
+                            <li>
+                                <a href="">Events</a>
+                            </li>
+                            <li>
+                                <a href="">Products</a>
+                            </li>
+                            <li>
+                                <a href="">Support</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button onclick="openNav();" aria-label="Exit overlay menu" title="for exiting the overlay menu">
+                        <img src="images/icon-hamburger.svg" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="header-title">
+                <div>
+                    <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- content -->
+    <main>
+    <div class="container">
+        <div class="info-container">
+            <div class="info-pic">
+                <img src="images/desktop/image-interactive.jpg" alt="">
+            </div>
+            <div class="inner-info-container">
+                <h4 class="info-para-header">THE LEADER IN INTERACTIVE VR</h4>
+                <p class="info-para-para">
+                    Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies
+                    around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their
+                    brand.
+                </p>
+            </div>
+        </div>
+        <div class="collection">
+            <div class="collection-header">
+                <h3>OUR CREATIONS</h3>
+                <button class="upper-btn">SEE ALL</button>
+            </div>
+            <div class="collections">
+                <div class="collections-img1 collections-img">
+                    <div class="div-overlay">
+                        <h3>DEEP EARTH</h3>
+                    </div>
+                </div>
+                <div class="collections-img2 collections-img">
+                    <div class="div-overlay">
+                        <h3>NIGHT ARCADE</h3>
+                    </div>
+                </div>
+                <div class="collections-img3 collections-img">
+                    <div class="div-overlay">
+                        <h3>SOCCER TEAM VR</h3>
+                    </div>
+                </div>
+                <div class="collections-img4 collections-img">
+                    <div class="div-overlay">
+                        <h3>THE GRID</h3>
+                    </div>
+                </div>
+                <div class="collections-img5 collections-img">
+                    <div class="div-overlay">
+                        <h3>FROM UP ABOVE VR</h3>
+                    </div>
+                </div>
+                <div class="collections-img6 collections-img">
+                    <div class="div-overlay">
+                        <h3>POCKET BOREALIS</h3>
+                    </div>
+                </div>
+                <div class="collections-img7 collections-img">
+                    <div class="div-overlay">
+                        <h3>THE CURIOSITY</h3>
+                    </div>
+                </div>
+                <div class="collections-img8 collections-img">
+                    <div class="div-overlay">
+                        <h3>MAKE FISHEYE</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="lower-btn-container">
+                <button class="lower-btn">
+                    SEE ALL
+                </button>
+            </div>
+        </div>
+     </div>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <div class="footer-logo-container">
+                    <img class="footer-logo" src="images/logo.svg" alt="">
+                </div>
+                <div >
+                    <ul>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Careers</a>
+                        </li>
+                        <li>
+                            <a href="">Event</a>
+                        </li>
+                        <li>
+                            <a href="">Products</a>
+                        </li>
+                        <li>
+                            <a href="">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social">
+                <ul>
+                    <li>
+                        <img src="images/icon-facebook.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="images/icon-twitter.svg"alt="">
+                    </li>
+                    <li>
+                        <img src="images/icon-pinterest.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="images/icon-instagram.svg" alt="">
+                    </li>
+                </ul>
+                <p class="copyright">© 2021 Loopstudios. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        function openNav(){
+            document.getElementById("full_nav").style.width="100%";
+        }
+        function closeNav(){
+            document.getElementById("full_nav").style.width="0%";
+        }
+    </script>
+</body>
+</html>
